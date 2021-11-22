@@ -252,17 +252,17 @@ img{
     bottom: 0;
 }
 
-/* Active link */
+/* Activar Link */
 .activar-link{
     color: var(--first-color);
 }
 
-/* Change background header */
+/* Cambiar Fondo */
 .scroll-header{
     box-shadow: 0 -1px 4px rgba(0,0,0,.15);
 }
 
-/*==================== HOME ====================*/
+/*==================== INICIO ====================*/
 .inicio__container{
     gap:1rem;
 }
@@ -305,10 +305,12 @@ img{
 .inicio__titulo{
     font-size: var(--big-font-size);
 }
+
 .nombreinicio{
     font-size: var(--big-font-size);
     color: var(--first-color);
 }
+
 .inicio__subtitulo{
     font-size: var(--h3-font-size);
     color: var(--text-color);
@@ -361,6 +363,7 @@ img{
 .button:hover{
     background-color: var(--first-color-alt);
 }
+
 .button__icon{
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
@@ -387,10 +390,6 @@ img{
     display: flex;
     justify-content: center;
 }
-
-
-/* Active Modal */
-
 
 /*==================== CONTACTO ====================*/
 .contacto__container{
@@ -428,6 +427,7 @@ img{
     font-size: var(--smaller-font-size);
     color: var(--title-color);
 }
+
 .contacto__input{
     width: 100%;
     background-color: var(--input-color);
@@ -516,6 +516,7 @@ img{
     border-radius: .5rem;
     transition: .4s;
 }
+
 .scrollup:hover{
     background-color: var(--first-color-alt);
 }
@@ -523,13 +524,11 @@ img{
 .scrollup__icon{
     color: #FFF;
 }
+
 /* Show scroll */
 .show-scroll{
     bottom: 5rem;
 }
-
-/*========== SCROLL BAR ==========*/
-
 
 /*==================== Medidas ====================*/
 /* Dispositivos Pequeños */
